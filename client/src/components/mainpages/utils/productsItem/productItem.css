@@ -1,0 +1,66 @@
+.product_card {
+  max-width: 300px;
+  overflow: hidden;
+  height: 475px;
+  padding: 15px;
+  box-shadow: 0 0 15px #ddd;
+  margin: 10px 0;
+  position: relative;
+}
+.product_card img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+.product_box h2 {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #323232;
+}
+.product_card span {
+  color: crimson;
+}
+
+.row_btn {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.row_btn a {
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 6px;
+}
+
+#btn_delete {
+  width: 50%;
+  background-color: #323232;
+  margin: 1px;
+}
+
+#btn_edit {
+  width: 50%;
+  background-color: teal;
+  margin: 1px;
+}
+
+#btn_view {
+  width: 100%;
+  background: teal;
+  margin-left: 5px;
+}
+.product_card input {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
